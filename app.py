@@ -1,4 +1,4 @@
 def find_max(numbers): 
-    returnmax(numbers) 
+    return max(numbers) 
 def count_evens(numbers): 
-    returnlen([n forn innumbers ifn% 2 ==0])
+    return len([n for n in numbers if n% 2 ==0])
